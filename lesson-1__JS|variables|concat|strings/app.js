@@ -24,7 +24,6 @@
 // 2 + 2
 
 // Variable
-
 // name for peace of memory
 
 // * let - keyword to initialize variable
@@ -188,6 +187,18 @@
 // 2) Create sentense of 5 variable above -> alert
 // alert(myLovelyCat + propose)
 
+let greeting = "Hello ";
+let firstName = "John ";
+let surname = "Doe";
+let comma = ", ";
+let mood = "how are you doing?";
+let number = 23;
+
+// ! Concatenation
+// ! Everything that will be added to string we'll have as a resault STRING
+// const sentense = greeting + firstName + surname + comma + mood + number;
+// alert(sentense);
+
 // 3) What does mean var , let , const ?
 // let - is a modern variable
 // const - ...
@@ -200,3 +211,25 @@
 // name = "Jack";
 
 // 5) What is JS ?
+
+// const btn = document.getElementById("btn");
+// const modal = document.querySelector(".modal");
+
+// const firstNames = ["John", "Mike", "Jack"];
+
+// let i = 0;
+
+// btn.addEventListener("click", () => {
+//   modal.innerHTML += `
+//       <h1>${firstNames[i]}</h1>
+//   `;
+//   i++;
+// });
+
+// document.querySelector("#hide").addEventListener("click", () => {
+//   modal.style.display = "none";
+// });
+
+// document.getElementById("btn").addEventListener("click", () => {
+//   modal.style.display = "flex";
+// });
