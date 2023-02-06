@@ -71,15 +71,27 @@
 // continue;
 
 // for (let i = 0; i < 10; i++) {
-//   if (i === 5 || i === 7) {
-//     continue;
-//   }
+//   if (i === 5 || i === 7) continue;
 
 //   console.log(i);
 // }
 
-// Fuzz Biz
-
+// Fuzz Bizz
+// end 100;
 // Если число нацело делится на 3 , тогда выводи слово "Фаз"
 // Если число нацело делится на 5 , тогда выводи слово "Бизз"
 // Если число нацело делится на 3 и на 5 , тогда выводи "ФазБизз"
+
+// for (let i = 0; i < 100; i++) {
+//   //   console.log(i);
+//   if (i % 3 === 0) {
+//     console.log("Fuzz");
+//   } else if (i % 5 === 0) {
+//     console.log("Biz");
+//   }
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("Fuzz Biz");
+//   } else {
+//     continue;
+//   }
+// }
