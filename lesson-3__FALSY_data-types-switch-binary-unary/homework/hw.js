@@ -8,6 +8,6 @@
 
 // until user <= 18 ask him about his age
 
-// 4) Output every simple number from 100;
+// 4) Output every simple number from 2 to 10;
 // 5) Get number from user and get factorial of this number
 // 5 = 1 * 2 * 3 * 4 * 5 = 125
