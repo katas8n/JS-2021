@@ -1,0 +1,3 @@
+tsc - run TScript compiler
+
+tsc --init - initialization
