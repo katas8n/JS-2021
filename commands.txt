@@ -1,3 +1,5 @@
 tsc - run TScript compiler
 
-tsc --init - initialization
+tsc - run TScript compiler
+tsc --watch - follow every file in the directory
+
