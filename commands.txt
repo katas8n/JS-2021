@@ -1,4 +1,9 @@
+npm init - initialize current project
+npm init --yes - file will be created as filled
+
 tsc - run TScript compiler
+
+tsc --init - create tsconfig file
 
 tsc - run TScript compiler
 tsc --watch - follow every file in the directory
