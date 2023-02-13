@@ -21,45 +21,45 @@
 //  if more than 1000 => output => i take a half of it
 //  if more than Not A Number => output => Something incorrect try again later.
 
-let firstName, surname, address, yearOfBirth;
+// let firstName, surname, address, yearOfBirth;
 
-firstName = prompt("Enter your name");
-surname = prompt("Enter your surname");
-address = prompt("Enter your address");
-yearOfBirth = prompt("Enter your yearOfBirth");
+// firstName = prompt("Enter your name");
+// surname = prompt("Enter your surname");
+// address = prompt("Enter your address");
+// yearOfBirth = prompt("Enter your yearOfBirth");
 
-alert(`
-Hello ${firstName} , your surname is ${surname} and you are ${
-  2023 - yearOfBirth
-} ... Nice to meet you ;)
-`);
+// alert(`
+// Hello ${firstName} , your surname is ${surname} and you are ${
+//   2023 - yearOfBirth
+// } ... Nice to meet you ;)
+// `);
 
-let mood;
+// let mood;
 
-mood = prompt("How are you doing ?");
+// mood = prompt("How are you doing ?");
 
-if (mood === "ok") {
-  alert(" all right , it's great");
-} else if (mood === "fine") {
-  alert("it's great");
-} else if (mood === "bed") {
-  alert("you are so moody today");
-} else {
-  alert("Something went wrond. Incorrect data. Try again later !");
-}
+// if (mood === "ok") {
+//   alert(" all right , it's great");
+// } else if (mood === "fine") {
+//   alert("it's great");
+// } else if (mood === "bed") {
+//   alert("you are so moody today");
+// } else {
+//   alert("Something went wrond. Incorrect data. Try again later !");
+// }
 
-let salary;
+// let salary;
 
-salary = +prompt("What is your monthly income ?");
+// salary = +prompt("What is your monthly income ?");
 
-if (salary < 300) {
-  alert("Go and work!");
-} else if (salary >= 300 && salary < 500 && !isNaN(salary)) {
-  alert("It's all right nowadays !");
-} else if (salary >= 500 && salary < 1000 && !isNaN(salary)) {
-  alert("It's quite a lot for today");
-} else if (salary >= 1000 && !isNaN(salary)) {
-  alert("Wow! It's amazing ! Awesome!");
-} else {
-  alert("Something went wrong !");
-}
+// if (salary < 300) {
+//   alert("Go and work!");
+// } else if (salary >= 300 && salary < 500 && !isNaN(salary)) {
+//   alert("It's all right nowadays !");
+// } else if (salary >= 500 && salary < 1000 && !isNaN(salary)) {
+//   alert("It's quite a lot for today");
+// } else if (salary >= 1000 && !isNaN(salary)) {
+//   alert("Wow! It's amazing ! Awesome!");
+// } else {
+//   alert("Something went wrong !");
+// }

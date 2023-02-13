@@ -1,11 +1,13 @@
 "use strict";
 // types
+
 // string
 // boolean
 // number
 // null
 // undefined
 // object
+
 // const firstName: string = "John";
 // Greeting
 // const firstName: string | null = prompt("What is your name");
