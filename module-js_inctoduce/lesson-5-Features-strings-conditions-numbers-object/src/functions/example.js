@@ -56,3 +56,26 @@
 //     }
 //   }
 // }
+
+// const alertBtn = document.getElementById("alert-btn");
+// const input = document.getElementById("input");
+
+// console.log(alertBtn);
+
+// function showAlert(inputValue) {
+//   alert("I'm here " + inputValue);
+// }
+
+// alertBtn.addEventListener("click", () => {
+//   showAlert(input.value);
+//   showAlert("DATA FROM SERVER");
+// });
+
+// function add() {
+//   return 2 + 2;
+// }
+
+// const operationResult = add();
+// const four = add();
+// console.log("[operationResult]", operationResult);
+// console.log("[four]", four);
