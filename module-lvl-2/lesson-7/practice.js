@@ -181,6 +181,7 @@
 // }
 
 // users = []
+// push() method to push data into array
 // 1) Registration y/n
 // 2) user = {
 //  name , age , role
