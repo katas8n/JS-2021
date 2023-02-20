@@ -179,3 +179,15 @@
 //     age: age,
 //   };
 // }
+
+// users = []
+// 1) Registration y/n
+// 2) user = {
+//  name , age , role
+// }
+// 3) age => num
+// 4) name => str
+
+// 5) Return date when user was born
+// 6) Return amount of letter in the name
+// 7) Return name in upperCase , lowerCase , slice median of name (here must be 3 letter). Ex : Kirill => iri
