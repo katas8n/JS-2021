@@ -140,38 +140,39 @@
 // const john = students.findIndex((obj) => obj === "John");
 // console.log("[john]", john);
 
-// const students = [
-//   {
-//     name: "John",
-//     age: 23,
-//     skills: ["HTML", "CSS", "JS"],
-//     salary: "1200$",
-//   },
-//   {
-//     name: "Bob",
-//     age: 32,
-//     skills: ["Python", "Jupiter", "NumPy"],
-//     salary: "1800$",
-//   },
-//   {
-//     name: "Mike",
-//     age: 123,
-//     skills: ["Java", "JS"],
-//     salary: "2200$",
-//   },
-//   {
-//     name: "Bobby",
-//     age: 321,
-//     skills: ["Assembly", "Fortran"],
-//     salary: "500$",
-//   },
-//   {
-//     name: "Jack",
-//     age: 13,
-//     skills: ["Python", "Photoshop"],
-//     salary: "200$",
-//   },
-// ];
+const students = [
+  {
+    name: "John",
+    age: 23,
+    skills: ["HTML", "CSS", "JS"],
+    salary: "1200$",
+  },
+  {
+    name: "Bob",
+    age: 32,
+    skills: ["Python", "Jupiter", "NumPy"],
+    salary: "1800$",
+  },
+  {
+    name: "Mike",
+    age: 123,
+    skills: ["Java", "JS"],
+    salary: "2200$",
+  },
+  {
+    name: "Bobby",
+    age: 321,
+    skills: ["Assembly", "Fortran"],
+    salary: "500$",
+  },
+  {
+    name: "Jack",
+    age: 13,
+    skills: ["Python", "Photoshop"],
+    salary: "200$",
+  },
+];
+
 // * 1) Find John and print him to the console
 // * 2) Sum of salary into the group
 // * 3) Mediana of ages
