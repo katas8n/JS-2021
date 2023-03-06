@@ -1,15 +1,20 @@
 const allInOne = [];
 
+function sum(truck, sedan) {
+  return truck + sedan;
+}
+
 const auto = {
   truck: [],
   sedan: [],
 };
 
 // auto => label , wheels , price
-function auto(label) {
+function auto(label, price) {
   const auto = {
     label: label,
     wheels: 4,
+    price: price,
   };
 
   return auto;
