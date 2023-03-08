@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  background: #1f1f1f;
+  height: 100vh;
+  font-family: sans-serif;
+  color: white;
+}
+
+.context-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  flex-direction: column;
+}
+
+.button__wrapper {
+
+}
+
+.button {
+  background: darkcyan;
+  border: none;
+  font-size: 1.2rem;
+  width: 12rem;
+  height: 3rem;
+  margin-top: 1.4rem;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: ease-in-out 300ms;
+}
+
+.button:hover {
+  border: 1px solid white;
+  background: #00a5a5;
+}
+
+.disabled {
+  background-color: gray;
+  cursor: none;
+}
+.disabled:hover {
+  background-color: rgb(90, 90, 90);
+  cursor: none;
+}
+
+.image {
+  width: 300px;
+}
+
+.battle-place.dis {
+  display: none;
+}
