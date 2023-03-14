@@ -1,5 +1,5 @@
 import Company from "./Company";
-import { Customer } from "./Customer";
+import { Customer, Admin } from "./Customer";
 import { afterAfair } from "./afterAfair";
 
 const orderCost = 35;

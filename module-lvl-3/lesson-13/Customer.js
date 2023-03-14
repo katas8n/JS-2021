@@ -13,3 +13,7 @@ export class Customer {
     this.money = money;
   }
 }
+
+export class Admin {
+  constructor() {}
+}
