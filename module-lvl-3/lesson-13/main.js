@@ -136,3 +136,6 @@ function random() {
 
   return "bot";
 }
+
+// 1) Upgrade it
+// 2) Make it clean
